@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bj.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>BlackJack</h1>
+    </header>
+    <div class="buttons">
+        <button id="btnpedir" class="pedir">Pedir Carta</button>
+        <button id="btnparar" class="parar">Terminé</button>
+        <button id="btnnuevo" class="nuevo">Nuevo Juego</button>
+    </div>
+    <main>
+        <div class="jugador">
+            <h1>Jugador - puntos: <small>0</small></h1> 
+            <div id="jugador-cartas" class="jugador-cartas">
+                <!-- <img class="card" src="img/cartas/3S.png" alt=""> -->
+            </div>
+        </div>
+
+        <div class="computadora">
+            <h1>Computadora - puntos: <small>0</small></h1> 
+            <div id="computadora-cartas"class="computadora-cartas">
+                
+            </div>
+        </div>
+    </main>
+
+    <script src='underscore-min.js'></script>
+    <script src='juego.js'></script>
+</body>
+</html>
